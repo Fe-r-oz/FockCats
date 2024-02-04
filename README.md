@@ -4,7 +4,7 @@ MIT iQuHACK 2024 - Quandela challenge
 # Perceval Processor Generator
 
 ## Introduction
-This script provides a method called `get_CCZ` that returns a Perceval Processor for quantum computing simulations.
+This script provides a method called `get_CCZ` that returns a Perceval Processor for quantum computing simulations.  We have also used an Advanced Optimization Algorithm called Genetic Algorithm optimize the function evaluate_matrix respect to m. Results are shown below.
 
 ## Usage
 1. Install the required dependencies by running:
