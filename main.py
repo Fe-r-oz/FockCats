@@ -10,6 +10,7 @@ def get_CCZ():
         pcvl.BasicState([1, 0, 1, 0, 1, 0]): "000",
         pcvl.BasicState([1, 0, 0, 1, 0, 1]): "001",
         pcvl.BasicState([1, 0, 0, 1, 1, 0]): "010",
+        pcvl.BasicState([1, 0, 0, 1, 0, 1]): "011",
         pcvl.BasicState([0, 1, 1, 0, 1, 0]): "100",
         pcvl.BasicState([0, 1, 1, 0, 0, 1]): "101",
         pcvl.BasicState([0, 1, 0, 1, 1, 0]): "110",
