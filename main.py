@@ -3,7 +3,7 @@ import perceval as pcvl
 def get_CCZ():
     processor = pcvl.Processor("SLOS", 6)
     processor.add(4, pcvl.BS.H())
-    processor.add(0, pcvl.catalog["postprocessed_ccz"].build_processor())
+    processor.add(0, pcvl.catalog["postprocessed ccz"].build_processor())
     processor.add(4, pcvl.BS.H())
 
     states = {
