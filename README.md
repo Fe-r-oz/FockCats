@@ -4,21 +4,24 @@ MIT iQuHACK 2024 - Quandela challenge
 # Perceval Processor Generator
 
 ## Introduction
-This script provides a method called `get_CCZ` that returns a Perceval Processor for quantum computing simulations.  We have also used an Advanced Optimization Algorithm called Genetic Algorithm optimize the function evaluate_matrix respect to m. Results are shown below.
+This script provides a Processor called `FockCats_CCZ` for quantum computing simulations.  We have also used an Advanced Optimization Algorithm called Genetic Algorithm optimize the function evaluate_matrix respect to m. Results are shown below.
 
 ## Usage
 1. Install the required dependencies by running:
 
-2. Import the `get_CCZ` method in your Python script or interactive environment.
-
-3. Call the `get_CCZ` method to obtain a Perceval Processor.
+2. Run the script. It will define a Processor named FockCats_CCZ
 
 4. Optionally, execute the generated processor for quantum computing simulations.
 
 ## Result
-The script generates a Perceval Processor with specific configurations for quantum computing simulations. It includes a predefined truth table, state definitions, and an algorithm analyzer.
+The script generates a Perceval Processor with specific configurations for quantum computing simulations.
+
+Our optimization result seems not ideal, due to limited fidelity of ~0.99. This gives large penalties to the final performance so we decided to use the m matrix from Quandela's source code. However, Our optimization result is briefly included in thie README file, and the full process is included in our notebook.
 
 #Jupyter Notebook is also provided that has the complete solution
+2024_Quandela_Remote.ipynb is our main notebook
+Bonus.ipynb is our attempt to the bonus part.
+
 ## Explanation
 The provided code in `main.py` initializes a Perceval Processor with a specific quantum circuit configuration. The states and truth table are defined for the quantum algorithm analyzer. The script computes the results based on the truth table and displays the performance and fidelity of the quantum simulation.
 
