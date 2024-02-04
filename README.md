@@ -18,15 +18,15 @@ This script provides a method called `get_CCZ` that returns a Perceval Processor
 ## Result
 The script generates a Perceval Processor with specific configurations for quantum computing simulations. It includes a predefined truth table, state definitions, and an algorithm analyzer.
 
-#Jupyter Notebook is also provided that has complete solution
+#Jupyter Notebook is also provided that has the complete solution
 ## Explanation
 The provided code in `main.py` initializes a Perceval Processor with a specific quantum circuit configuration. The states and truth table are defined for the quantum algorithm analyzer. The script computes the results based on the truth table and displays the performance and fidelity of the quantum simulation.
 
 # JupyterNotebook is also provided
 
-## optimize the function evaluate_matrix respect to m [6]
+## Optimize the function evaluate_matrix to m [6].
 
-# Optimization ALgorithm: Genetic Algorithm
+# Optimization Algorithm: Genetic Algorithm
 
 Generation 1: Best Fitness = -5625383.713208989, Performance = 0.02253562569531889, Fidelity = 0.4374616061434754
 Generation 2: Best Fitness = -6348300.560057424, Performance = 0.0028710366240592075, Fidelity = 0.365169941123221
