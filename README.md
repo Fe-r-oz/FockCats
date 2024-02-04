@@ -22,6 +22,8 @@ The script generates a Perceval Processor with specific configurations for quant
 ## Explanation
 The provided code in `main.py` initializes a Perceval Processor with a specific quantum circuit configuration. The states and truth table are defined for the quantum algorithm analyzer. The script computes the results based on the truth table and displays the performance and fidelity of the quantum simulation.
 
+# JupyterNotebook is also provided
+
 ## optimize the function evaluate_matrix respect to m [6]
 
 # Optimization ALgorithm: Genetic Algorithm
