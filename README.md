@@ -29,6 +29,18 @@ The provided code in `main.py` initializes a Perceval Processor with a specific 
 
 ## Optimize the function evaluate_matrix to m [6].
 
+# The CCZ gate in the Preceval library - serves as the bottom line
+|   | 000 | 010 | 100 | 110 | 001 | 011 | 101 | 111 |
+|---|-----|-----|-----|-----|-----|-----|-----|-----|
+| 000 | 1   | 0   | 0   | 0   | 0   | 0   | 0   | 0   |
+| 010 | 0   | 1   | 0   | 0   | 0   | 0   | 0   | 0   |
+| 100 | 0   | 0   | 1   | 0   | 0   | 0   | 0   | 0   |
+| 110 | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 1   |
+| 001 | 0   | 0   | 0   | 0   | 1   | 0   | 0   | 0   |
+| 011 | 0   | 0   | 0   | 0   | 0   | 1   | 0   | 0   |
+| 101 | 0   | 0   | 0   | 0   | 0   | 0   | 1   | 0   |
+| 111 | 0   | 0   | 0   | 1   | 0   | 0   | 0   | 0   |
+
 # Optimization Algorithm: Genetic Algorithm
 
 Generation 1: Best Fitness = -5625383.713208989, Performance = 0.02253562569531889, Fidelity = 0.4374616061434754
@@ -1102,4 +1114,17 @@ Generation 500: Best Fitness = -87431.90349724784, Performance = 0.0211683739750
           -0.30063787,   2.44415197,   4.62051341,  -1.92538217,
            2.5499258 ]]),
  -87431.90349724784)
+
+ # References
+[1] Aaronson, S., & Arkhipov, A. (2011, June). The computational complexity of linear optics. In Proceedings of the forty-third annual ACM symposium on Theory of computing (pp. 333-342).
+
+[2] Reck, M., Zeilinger, A., Bernstein, H. J., & Bertani, P. (1994). Experimental realization of any discrete unitary operator. Physical review letters, 73(1), 58.
+
+[3] Clements, W. R., Humphreys, P. C., Metcalf, B. J., Kolthammer, W. S., & Walmsley, I. A. (2016). Optimal design for universal multiport interferometers. Optica, 3(12), 1460-1465.
+
+[4] Knill, E., Laflamme, R., & Milburn, G. J. (2001). A scheme for efficient quantum computation with linear optics. nature, 409(6816), 46-52.
+
+[5] Knill, E. (2002). Quantum gates using linear optics and postselection. Physical Review A, 66(5), 052306.
+
+[6] Uskov, D. B., Kaplan, L., Smith, A. M., Huver, S. D., & Dowling, J. P. (2009). Maximal success probabilities of linear-optical quantum gates. Physical Review A, 79(4), 042326.
 
