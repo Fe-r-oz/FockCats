@@ -65,6 +65,32 @@ The Matrix Representation of Unitary is shown as :
 
 
 # Optimization Algorithm: Genetic Algorithm
+Genetic Optimization Algorithms are a class of evolutionary algorithms inspired by natural selection and genetics. These algorithms are used to find approximate solutions to optimization and search problems. The process is based on the principles of evolution, including selection, crossover, and mutation.
+
+1. **Initialization:**
+   - A population of potential solutions is randomly generated to represent the candidate solutions to the optimization problem.
+
+2. **Evaluation:**
+   - Each individual in the population is evaluated based on a fitness function that quantifies how well the solution solves the optimization problem. The fitness function guides the search toward better solutions.
+
+3. **Selection:**
+   - Individuals are selected from the population for reproduction based on their fitness. Solutions with higher fitness have a better chance of being selected. Common selection methods include roulette wheel selection, tournament selection, and rank-based selection.
+
+4. **Crossover (Recombination):**
+   - Pairs of selected individuals undergo crossover or recombination to create new offspring. This mimics the genetic crossover or recombination process in biology. It involves exchanging information between two parent solutions to generate one or more offspring.
+
+5. **Mutation:**
+   - Random changes, or mutations, are applied to some individuals in the population. This introduces diversity into the population and helps explore new areas of the solution space. Mutation is crucial for preventing premature convergence to suboptimal solutions.
+
+6. **Replacement:**
+   - The new offspring and some of the existing individuals from the previous generation form the next generation. The individuals with lower fitness might be replaced by the newly generated offspring.
+
+7. **Termination:**
+   - The algorithm repeats the selection, crossover, mutation, and replacement steps for multiple generations or until a termination criterion is met. Termination criteria can include reaching a specified number of generations, finding a solution with sufficient fitness, or reaching a predefined computational budget.
+
+![GA](GA.jpg)
+
+# Results of OPtimization using Genetic Algorithm
 
 Generation 1: Best Fitness = -5625383.713208989, Performance = 0.02253562569531889, Fidelity = 0.4374616061434754
 
