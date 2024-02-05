@@ -626,7 +626,7 @@ array([[ 25.59049385,  -5.43796247,   3.60220135,  -2.40719708,
        [ -0.4945556 ,   1.92450574,   0.91236717,  -0.52830935,
          -0.30063787,   2.44415197,   4.62051341,  -1.92538217,
           2.5499258 ]])
-
+```
 The corresponding objective function value associated with these parameters is approximately -87431.90349724784.
 
 
