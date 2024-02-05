@@ -41,6 +41,7 @@ The provided code in `main.py` initializes a Perceval Processor with a specific 
 | 101 | 0   | 0   | 0   | 0   | 0   | 0   | 1   | 0   |
 | 111 | 0   | 0   | 0   | 1   | 0   | 0   | 0   | 0   |
 
+![ImageCCZ](ImageCCZ.png)
 # Optimization Algorithm: Genetic Algorithm
 
 Generation 1: Best Fitness = -5625383.713208989, Performance = 0.02253562569531889, Fidelity = 0.4374616061434754
