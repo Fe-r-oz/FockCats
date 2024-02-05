@@ -27,6 +27,9 @@ The provided code in `main.py` initializes a Perceval Processor with a specific 
 
 # JupyterNotebook is also provided
 
+# The CZ gate in reference [5] - as a warm-up to the problem
+![CZGate](CZGate.png)
+
 ## Optimize the function evaluate_matrix to m [6].
 
 # The CCZ gate in the Preceval library - serves as the bottom line
